@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dailog box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+         
+        <img src="indigo.avif" class="img">
+       
+        <button class="btn" onclick="openModal()">
+            Book Now
+            
+        </button>
+
+       <div class="overlay" id="overlay">
+        <div class="model">
+            <img src="close.png" class="close-btn" onclick="closeModal()">
+         <form class="form">
+             <h2>Book Now</h2>
+             <input type="text" placeholder="Enter Ypur Name" class="input">
+             <input type="text" placeholder=" Enter Your Email"class="input">
+             <input type="text" placeholder="Phone Number"class="input">
+             <input type="number" placeholder="Age"class="input">
+             <input type="text" placeholder="Pick-Up Point"class="input">
+             <input type="text" placeholder="Destination"class="input">
+             <input type="date" placeholder="Date"class="input">
+             <input type="time" placeholder="Time"class="input">
+             <input type="number" placeholder="Number Of Passengers"class="input">
+             <button class="btn">Submit Details</button>
+         </form>
+        </div>
+       </div>
+       <script src="./script.js"></script>
+</body>
+
+</html>
